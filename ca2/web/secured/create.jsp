@@ -25,6 +25,7 @@
       <option value="JOBS">JOBS</option> 
       <option value="TUITION">TUITION</option> 
     </select>
+    
     <br />
     Content: <input type="text" name="content" /><br />
     <input onclick="sendText(document.getElementById('content').value)" type="submit" />
